@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Supabase Auth</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <meta charset="utf-8">
+</head>
+
+<body>
+    <body>
+        <div class="header-0-3-22">
+          <div class="icon-0-3-23">
+            <div class="h-icon icon-0-3-27">
+              <img src="/48x48.svg" />
+            </div>
+          </div>
+          <input id="myButton" type="image" src="/exit.svg" class="myButton" />
+          <script src="script.js"></script>
+        </div>
+        <div class="footer-0-3-6">
+          <div class="link-0-3-11">
+            <a
+              aria-current="page"
+              class="iconContainer-0-3-7"
+              id="corner:Main-Home"
+              href="/popup.html"
+              style="padding-top: 4px; opacity: 1; width: 56px"
+              ><img class="searchIcon-0-3-9" src="/homegrey.svg" alt=" "
+            /></a>
+          </div>
+          <div class="link-0-3-11">
+            <a
+              class="iconContainer-0-3-7"
+             id="centerprofile"
+              style="
+                padding-top: 4px;
+                opacity: 1;
+                width: 56px;
+                cursor: default;
+                border-bottom: 4px solid rgb(0, 0, 0);
+              "
+              ><img class="searchIcon-0-3-9" src="/Profile.svg" alt=" "
+            /></a>
+          </div>
+          <div class="link-0-3-11">
+            <a
+              class="iconContainer-0-3-7"
+              id="corner:Main-Search"
+              href="/Settings.html"
+              style="padding-top: 4px; opacity: 1; width: 56px"
+              ><img class="searchIcon-0-3-9" src="/settingsgrey.svg" alt=" "
+            /></a>
+          </div>
+        </div>
+    <div class="loginArea" style="display:none;">
+
+        <div class="signup-box">
+          <h1 class="joinnow">Join oneKYC</h1>
+          <input class="emailinput" type="email">
+            <label class="emailtitle">Email:</label>
+            <label class="passwordtitle">Password:</label>
+            <input class="passwordinput" type="password">
+            <button class="signup-btn-auth" type="button">Sign Up</button>
+            <p class="terms2">
+                By joining, I agree to oneKYC
+                <a
+                  href="https://onekyc.io"
+                  style="text-decoration-line: #7e7e7e underline"
+                  >Privacy and Service terms.</a
+                >
+              </p>
+          
+              <br />
+          
+              <p class="authscreenswitch">
+                Already using oneKYC:
+                <a href="Login.html" style="text-decoration-line: #7e7e7e underline"
+                  >Sign In</a
+                >
+              </p>
+        </div>
+        <div class="login-box" style="display:none;">
+          <h3>Login:</h3>
+          <label>Email:</label>
+          <input type="email">
+          <label>Password:</label>
+          <input type="password">
+          <button class="login-btn-auth" type="button">Login</button>
+        </div>
+      </div>
+      <div class="loggedInArea" style="display:none;">
+        <span class="dot"></span>
+        <img src="/Face.svg" class="face" />
+        <h1 class="name" id="emailtext"></h1>
+        <h1 class="identifier" id="idtext"></h1>
+        <div class="main">
+          <button class="logout-btn-auth" type="button">Logout</button>
+          <a href="/settings.html"><button class="button11">Account Settings</button></a>
+      </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
